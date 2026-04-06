@@ -74,7 +74,7 @@ chmod 600 ~/.ssh/authorized_keys
 ssh ubuntu@<target-ec2-ip>
 ```
 
-✅ Successful login without password confirms setup
+Successful login without password confirms setup
 
 ---
 
