@@ -30,7 +30,7 @@ This project uses an Ansible playbook that calls reusable roles to:
 ```
 ansible-nginx/
 ├── inventory
-├── nginx.yml
+├── site.yml
 ├── roles/
 │   ├── docker/
 │   │   └── tasks/main.yml
@@ -92,7 +92,7 @@ ansible-playbook -i inventory nginx.yml
 ##  Execution Flow
 
 ```
-Playbook (nginx.yml)
+Playbook (site.yml)
         ↓
 Docker Role → installs Docker
         ↓
